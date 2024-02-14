@@ -355,8 +355,7 @@ export function Project() {
               <p>
               Pathfinder extends a very warm welcome to the school-going students 
               of Eastern India from Class VII to Class XII. Pathfinder, the leading 
-              institute in Eastern India guides students for competitive exams like JEE( main & Advanced), 
-              NEET-UG, WBJEE, Olympiads, KVPY and allied competitive exams. 
+              institute in Eastern India guides students for competitive exams like JEE and allied competitive exams. 
               </p>
             </div>
             <footer>
@@ -382,7 +381,7 @@ export function Project() {
               <p>
               KRIMS Hospitals is consistently striving to provide the most accessible, 
               reliable and affordable health care services to patients with true care, 
-              commitment and compassion. While doing so we assure to meet the highest ethical standards.
+              commitment and compassion. 
               </p>
             </div>
             <footer>
@@ -486,8 +485,7 @@ export function Project() {
               <p>
                Kresus Marketplace is a secure ecosystem of hand picked projects built to help take your web3
                journey to the next level. Use your Kresus SuperApp to explore new blockchain powered use 
-               cases ranging from gaming to on-chain real world assets. Each project has been carefully 
-               curated by the Kresus team for you to enjoy.
+               cases ranging from gaming to on-chain real world assets.
               </p>
             </div>
             <footer>
