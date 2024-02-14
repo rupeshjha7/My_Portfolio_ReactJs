@@ -1,6 +1,6 @@
 # Portfolio of Rupesh Kumar Jha
 
-<!-- <img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" /> -->
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9a3f7409-b8e5-4ea8-8eee-d0338b6e1512/deploy-status)](https://app.netlify.com/sites/rkjha-portfolio/deploys)
  
 This project was created with CRA (Create React App)
 
