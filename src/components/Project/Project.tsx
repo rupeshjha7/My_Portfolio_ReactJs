@@ -465,7 +465,7 @@ export function Project() {
                 <li>JavaScript</li>
                 <li>ReactJs</li>
                 <li>Redux</li>
-                <li>React-Router</li>
+                {/* <li>React-Router</li> */}
               </ul>
             </footer>
           </div>
@@ -497,7 +497,7 @@ export function Project() {
                 <li>JavaScript</li>
                 <li>NextJs</li>
                 <li>Redux</li>
-                <li>React-Router</li>
+                {/* <li>React-Router</li> */}
               </ul>
             </footer>
           </div>
