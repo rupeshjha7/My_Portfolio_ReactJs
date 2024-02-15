@@ -11,10 +11,10 @@ import telegram from '../../assets/telegram.svg'
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://rkjha.in" className="logo">
+      {/* <a href="https://rkjha.in" className="logo">
         <span>www.rkjha</span>
         <span>.in</span>
-      </a>
+      </a> */}
       <div>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
