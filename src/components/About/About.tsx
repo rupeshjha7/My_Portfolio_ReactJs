@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import RupeshJha from "../../assets/profile-pic.jpg";
+import RupeshJha from "../../assets/profile.jpg";
 import wordpress from "../../assets/wordpress.svg";
 // import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
