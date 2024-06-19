@@ -446,15 +446,15 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://adminportal.dev-integration.kresus.com/" target="_blank" rel="noreferrer">
+                <a href="https://www.homees.co/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Kresus Admin Portal</h3>
+              <h3>Homees</h3>
               <p>
-              There are 30+ feature such as  Financial Transaction ,Billing Description,Component Application & More.
+              There are Home based More Than Services Website.
               </p>
             </div>
             <footer>
@@ -481,26 +481,24 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Kresus Marketplace</h3>
+              <h3>Setmore</h3>
               <p>
-               Kresus Marketplace is a secure ecosystem of hand picked projects built to help take your web3
-               journey to the next level. Use your Kresus SuperApp to explore new blockchain powered use 
-               cases ranging from gaming to on-chain real world assets.
+               There are Free Scheduling Software Services.
               </p>
             </div>
             <footer>
             <ul className="tech-list">
                 <li>Html</li>
-                <li>Tailwind Css</li>
+                <li>Css</li>
                 <li>JavaScript</li>
-                <li>NextJs</li>
+                {/* <li>NextJs</li> */}
                 <li>Redux</li>
                 {/* <li>React-Router</li> */}
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-        
+{/*         
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -527,7 +525,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
 
       </div>
