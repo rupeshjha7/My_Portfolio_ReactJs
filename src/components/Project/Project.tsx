@@ -460,10 +460,10 @@ export function Project() {
             <footer>
               <ul className="tech-list">
                 <li>Html</li>
-                <li>Scss</li>
-                <li>JavaScript</li>
+                <li>Css</li>
+                {/* <li>JavaScript</li> */}
                 <li>ReactJs</li>
-                <li>Redux</li>
+                {/* <li>Redux</li> */}
                 {/* <li>React-Router</li> */}
               </ul>
             </footer>
@@ -490,9 +490,9 @@ export function Project() {
             <ul className="tech-list">
                 <li>Html</li>
                 <li>Css</li>
-                <li>JavaScript</li>
+                <li>Reactjs</li>
                 {/* <li>NextJs</li> */}
-                <li>Redux</li>
+                {/* <li>Redux</li> */}
                 {/* <li>React-Router</li> */}
               </ul>
             </footer>

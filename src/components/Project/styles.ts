@@ -18,13 +18,14 @@ export const Container = styled.section`
     overflow: hidden;
 
     .project{
-      padding: 2rem 1.8rem;
+      padding: 2rem 2rem;
       background-color: #2b2b2b;
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
+      width:100%;
       color: #FFF;
       &:hover{
         transform: translateY(-5px);
