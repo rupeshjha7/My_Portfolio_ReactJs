@@ -37,7 +37,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
 
-        <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -59,7 +59,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -109,7 +109,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-
+{/* 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -132,7 +132,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
@@ -264,7 +264,7 @@ export function Project() {
         </ScrollAnimation>
 
 
-        <ScrollAnimation animateIn="flipInX">
+        {/* <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
@@ -287,7 +287,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
 
         <ScrollAnimation animateIn="flipInX">
@@ -441,64 +441,441 @@ export function Project() {
           </div>
         </ScrollAnimation>
         
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://www.homees.co/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Homees</h3>
-              <p>
-              There are Home based More Than Services Website.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Html</li>
-                <li>Css</li>
-                {/* <li>JavaScript</li> */}
-                <li>ReactJs</li>
-                {/* <li>Redux</li> */}
-                {/* <li>React-Router</li> */}
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
         
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
-                <a href="https://merokudao.dev.kresus.com/" target="_blank" rel="noreferrer">
+                <a href="https://dubaigolddistrict.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
                 </a>
               </div>
             </header>
             <div className="body">
-              <h3>Setmore</h3>
+              <h3>Dubai Gold District</h3>
               <p>
-               There are Free Scheduling Software Services.
+                Discover the world's largest gold market in Dubai. Explore authentic gold jewelry, bullion, and precious items from renowned merchants in the iconic Gold Souk.
               </p>
             </div>
             <footer>
-            <ul className="tech-list">
+              <ul className="tech-list">
+                <li>Drupal</li>
                 <li>Html</li>
-                <li>Css</li>
-                <li>Reactjs</li>
-                {/* <li>NextJs</li> */}
-                {/* <li>Redux</li> */}
-                {/* <li>React-Router</li> */}
+                <li>Saas</li>
+                <li>JavaScript</li>
               </ul>
             </footer>
           </div>
         </ScrollAnimation>
-{/*         
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://waterfrontmarket.ae/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Waterfront Market</h3>
+              <p>
+                Experience the charm of traditional markets at Dubai's waterfront. Shop for fresh produce, seafood, spices, and local crafts in a picturesque setting.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.wildwadi.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>WildWadi Water Park</h3>
+              <p>
+                Dubai's premier water park featuring thrilling slides, wave pools, and family-friendly attractions. Perfect for a fun-filled day of water-based adventures.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.aindubai.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Ain Dubai</h3>
+              <p>
+                Experience Dubai's tallest observation wheel offering breathtaking panoramic views of the city skyline, Palm Jumeirah, and the Arabian Gulf.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.arn.ae/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>ARN Dubai</h3>
+              <p>
+                Premier destination for entertainment, dining, and cultural experiences in Dubai, offering world-class events and attractions for visitors and locals.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://coca-cola-arena.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Coca-Cola Arena</h3>
+              <p>
+                Dubai's premier entertainment venue hosting world-class concerts, sporting events, and performances by international and local artists.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.dubaiparksandresorts.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Dubai Parks and Resorts</h3>
+              <p>
+                Explore multiple theme parks and resorts offering diverse entertainment for families. Features thrilling rides, attractions, and world-class hospitality.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.globalvillage.ae/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Global Village</h3>
+              <p>
+                Cultural destination showcasing pavilions from 70+ countries with traditional crafts, cuisine, entertainment, and shopping experiences.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.theroxycinemas.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Roxy Cinemas</h3>
+              <p>
+                Premium cinema experience with state-of-the-art technology and comfortable seating. Enjoy the latest movies and blockbuster releases.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.seabreeze.ae/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Seabreeze</h3>
+              <p>
+                Beachfront entertainment destination offering water sports, dining, and recreational activities with stunning views of the Arabian Gulf.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.thegreenplanetdubai.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>The Green Planet Dubai</h3>
+              <p>
+                Unique biopark featuring four ecosystems with tropical plants and animals. An eco-friendly attraction promoting environmental conservation and awareness.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.dubaiholding.com/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Dubai Holding</h3>
+              <p>
+                Leading investment and development company managing iconic Dubai properties and businesses across hospitality, real estate, and entertainment sectors.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.theviewpalm.ae/en" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>The View Palm</h3>
+              <p>
+                Iconic observation deck on Palm Jumeirah offering 360-degree views of Dubai's skyline, beaches, and the Palm development.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Drupal</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.parkin.ae/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Parkin</h3>
+              <p>
+                Smart parking solutions platform making it easy to find and book parking spaces across Dubai with real-time availability and seamless payment options.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Bootstrap</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+                <li>NextJs</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://www.adai.art/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>ADAI Art District</h3>
+              <p>
+                Contemporary art district featuring galleries, studios, and creative spaces. Showcase for emerging and established artists in Dubai's vibrant art community.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Laraval</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://naiaislanddubai.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Naia Island Dubai</h3>
+              <p>
+                Exclusive island destination offering luxury entertainment, dining, and leisure experiences with pristine beaches and world-class amenities.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Laraval</li>
+                <li>Html</li>
+                <li>Saas</li>
+                <li>JavaScript</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+{/*
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>

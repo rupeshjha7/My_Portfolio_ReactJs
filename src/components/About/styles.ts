@@ -21,6 +21,25 @@ export const Container = styled.section`
     img{
       width: 3.4rem;
     }
+
+    &.skill-badge{
+      span{
+        background: linear-gradient(135deg, var(--green) 0%, #1db954 100%);
+        color: white;
+        padding: 0.6rem 1.2rem;
+        border-radius: 0.5rem;
+        font-size: 0.95rem;
+        font-weight: 600;
+        white-space: nowrap;
+        box-shadow: 0 2px 8px rgba(35, 206, 107, 0.3);
+        transition: all 0.3s ease;
+
+        &:hover{
+          transform: translateY(-2px);
+          box-shadow: 0 4px 12px rgba(35, 206, 107, 0.5);
+        }
+      }
+    }
   }
 
   h2{
