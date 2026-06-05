@@ -441,7 +441,7 @@ export function Project() {
           </div>
         </ScrollAnimation>
         
-        
+{/*         
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -873,7 +873,7 @@ export function Project() {
               </ul>
             </footer>
           </div>
-        </ScrollAnimation>
+        </ScrollAnimation> */}
 
 {/*
         <ScrollAnimation animateIn="flipInX">
