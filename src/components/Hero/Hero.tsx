@@ -13,7 +13,7 @@ export function Hero() {
     <Container id="home">
       <div className="hero-text">
         <ScrollAnimation animateIn="fadeInUp">
-          <p>Hello <img src={Hello} alt="Hello" width="20px"/>, I'm</p>
+          <p>Hello <img src={Hello} alt="Hello" width="20px" />, I'm</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
           <h1>Rupesh Kumar Jha</h1>
@@ -25,53 +25,52 @@ export function Hero() {
           <p className="small-resume">Building high-performance,scalable web applications and modern eCommerce experiences.</p>
         </ScrollAnimation>
 
-
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
             <NavHashLink smooth to="#contact" className="button">Contact</NavHashLink>
           </BrowserRouter>
         </ScrollAnimation>
-        
+
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
-      <div className="social-media"><a
-        href="https://www.linkedin.com/in/rupesh-kumar-jha-95879462/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <img src={linkedin} alt="Linkedin" />
-      </a>
-        <a
-          href="https://github.com/rupeshjha7"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a
-          href="https://api.whatsapp.com/send/?phone=%2B917004911775&text=Hello+Rupesh"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-        <a
-          href="https://t.me/Rupesh"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={telegram} alt="telegram" />
-        </a></div>
+          <div className="social-media"><a
+            href="https://www.linkedin.com/in/rupesh-kumar-jha-95879462/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={linkedin} alt="Linkedin" />
+          </a>
+            <a
+              href="https://github.com/rupeshjha7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={githubIcon} alt="GitHub" />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=%2B917004911775&text=Hello+Rupesh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={whatsapp} alt="Whatsapp" />
+            </a>
+            <a
+              href="https://t.me/Rupesh"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={telegram} alt="telegram" />
+            </a></div>
         </ScrollAnimation>
 
       </div>
-     
+
 
       <div className="hero-image">
         <ScrollAnimation animateIn="fadeInRight" delay={1 * 1000}>
           <img src={Illustration} alt="Ilustração" />
         </ScrollAnimation>
       </div>
-     
+
     </Container>
 
   )

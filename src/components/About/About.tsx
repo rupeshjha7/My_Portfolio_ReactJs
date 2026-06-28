@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import RupeshJha from "../../assets/pic-profile.jpg";
+
 import wordpress from "../../assets/wordpress.svg";
 import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -21,17 +21,17 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-          I am a Dynamic Web Developer with 5+ years of proven expertise in designing and developing high-performance, responsive web applications. Specialized in translating complex design mockups from Figma into pixel-perfect, fully functional user interfaces while maintaining code quality and performance standards.
+            Frontend, Full-Stack WordPress, and Shopify Developer with 4.9+ years of experience architecting scalable, high-performance web applications. Expert in modern React/Next.js frontend ecosystems and complex CMS/eCommerce integrations.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-          My technical stack encompasses modern front-end frameworks (React, NextJS), state management (Redux), and advanced styling solutions (Tailwind CSS, Material-UI). I have extensive CMS expertise including WordPress theme development, WooCommerce integration, PHP, and Shopify Liquid programming. Additionally, I'm proficient in backend technologies like Laravel and Drupal, enabling me to deliver comprehensive full-stack solutions.
+            Proven track record of optimizing browser rendering pipelines, implementing robust testing strategies, and leading strategic technical decisions that directly impact business growth. Skilled in bridging the gap between design and high-velocity engineering.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-          With a strong foundation in responsive design, cross-browser compatibility testing, and agile development practices, I consistently deliver solutions that enhance user engagement and drive business results. I'm adept at collaborating with cross-functional teams, version control systems (Git/Bitbucket), and design tools (Figma), while maintaining a commitment to clean code and best practices.
+            I leverage AI-assisted workflows (Cursor AI, GitHub Copilot, Claude) to drive efficiency, maintainability, and enterprise-grade performance, consistently achieving Lighthouse scores of 90+ across high-traffic platforms.
           </p>
         </ScrollAnimation>
 
@@ -120,13 +120,13 @@ export function About() {
 
           <div className="hability skill-badge">
             <ScrollAnimation animateIn="fadeInUp" delay={0.23 * 1000}>
-              <span>Drupal</span>
+              <span>Playwright</span>
             </ScrollAnimation>
           </div>
 
           <div className="hability skill-badge">
             <ScrollAnimation animateIn="fadeInUp" delay={0.24 * 1000}>
-              <span>Laravel</span>
+              <span>Cursor AI</span>
             </ScrollAnimation>
           </div>
 
@@ -148,12 +148,13 @@ export function About() {
             </ScrollAnimation>
           </div>
 
+          <div className="hability skill-badge">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.28 * 1000}>
+              <span>Copilot</span>
+            </ScrollAnimation>
+          </div>
+
         </div>
-      </div>
-      <div className="about-image">
-        <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={RupeshJha} alt="Rupesh Jha" className="rounded"/>
-        </ScrollAnimation>
       </div>
     </Container>
   )

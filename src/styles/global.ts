@@ -7,14 +7,28 @@ export const GlobalStyle = createGlobalStyle`
     --black: #212121;
     --green: #23ce6b;
     --blue: #016fb9;
+    
+    --bg-color: #212121;
+    --text-color: #FFFFFF;
+    --card-bg: rgba(43, 43, 43, 0.4);
+    --card-hover: rgba(43, 43, 43, 0.7);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --svg-invert: brightness(0) invert(1);
+    
     scroll-padding-top: 10rem;
 
     &.light{
+      --bg-color: #f5f5f5;
+      --text-color: #212121;
+      --card-bg: rgba(255, 255, 255, 0.7);
+      --card-hover: rgba(255, 255, 255, 0.9);
+      --card-border: rgba(0, 0, 0, 0.1);
+      --svg-invert: brightness(0);
 
       body{
         transition: 0.5s;
-        background-color: #f5f5f5;
-        color: var(--black);
+        background-color: var(--bg-color);
+        color: var(--text-color);
       }
 
       .logo{
@@ -79,8 +93,29 @@ export const GlobalStyle = createGlobalStyle`
   body{
     font-size: 1.6rem;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--black);
-    color: #FFFF;
+    background-color: var(--bg-color);
+    background-image: 
+      radial-gradient(at 0% 0%, rgba(35, 206, 107, 0.08) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(227, 31, 113, 0.08) 0px, transparent 50%);
+    background-attachment: fixed;
+    color: var(--text-color);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--black);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--green);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pink);
   }
 
   body, input, textarea, button{
@@ -113,7 +148,7 @@ export const GlobalStyle = createGlobalStyle`
 
   .logo{
     font-size: 3rem;
-    color: #FFFF;
+    color: var(--text-color);
     // &::first-letter{
     //   color: var(--green);
     // }

@@ -13,10 +13,119 @@ export function Project() {
 
 
 
+        {/* Project 1 */}
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://parkin.ae/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Parkin.ae</h3>
+              <p>
+                Developed core frontend architecture using React.js and Next.js, optimizing API integration and performance. Leveraged AI tools (Cursor AI, GitHub Copilot) for rapid component scaffolding and automated unit testing.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>React.js</li>
+                <li>Next.js</li>
+                <li>AI Tools</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* Project 2 */}
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://adai.art/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Adai.art</h3>
+              <p>
+                Engineered a highly responsive UI utilizing Laravel Blade and Tailwind CSS. Implemented AI-driven design-to-code workflows to improve cross-device usability by 25%.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Laravel</li>
+                <li>Tailwind CSS</li>
+                <li>Figma</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* Project 3 */}
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://bionutrica.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>Bionutrica</h3>
+              <p>
+                Engineered a custom Shopify Liquid storefront with advanced product filtering and AJAX-based cart logic; performed deep eCommerce performance tuning to reduce page load by 40%.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>Shopify Liquid</li>
+                <li>JavaScript</li>
+                <li>eCommerce</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* Project 4 */}
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+              <div className="project-links">
+                <a href="https://krimshospitals.com/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" />
+                </a>
+              </div>
+            </header>
+            <div className="body">
+              <h3>KRIMS Hospitals</h3>
+              <p>
+                Developed a full-stack WordPress healthcare portal featuring custom post types for patient records and a secure appointment booking system integrated via PHP and Elementor.
+              </p>
+            </div>
+            <footer>
+              <ul className="tech-list">
+                <li>WordPress</li>
+                <li>PHP</li>
+                <li>Elementor</li>
+              </ul>
+            </footer>
+          </div>
+        </ScrollAnimation>
+
+        {/* Project 5 */}
+        <ScrollAnimation animateIn="flipInX">
+          <div className="project">
+            <header>
+              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
               <div className="project-links">
                 <a href="https://kresus.com/" target="_blank" rel="noreferrer">
                   <img src={externalLink} alt="Visit site" />
@@ -24,14 +133,16 @@ export function Project() {
               </div>
             </header>
             <div className="body">
-              <h3>Kresus - Company Website</h3>
+              <h3>Kresus</h3>
               <p>
-                This website for Company Productivity. It is easy to find what you need, whether it's Company Website for Presentation MarketPlace & App.
+                Architected a complex WordPress theme from scratch, utilizing custom backend logic and REST API integrations to synchronize real-time data from third-party financial services.
               </p>
             </div>
             <footer>
               <ul className="tech-list">
                 <li>WordPress</li>
+                <li>REST API</li>
+                <li>Custom Theme</li>
               </ul>
             </footer>
           </div>
@@ -73,7 +184,7 @@ export function Project() {
             <div className="body">
               <h3>MadeWithLuv - HomeDecor Site</h3>
               <p>
-                This website sells home decor products and helps people decorate their homes. It is easy to find what you need, whether it's furniture or decorations. The site is useful for people who want to make their homes look nice and need some help.
+                Developed a complete e-commerce platform for home decor using WordPress and WooCommerce. Created a user-friendly and responsive shopping experience to help customers easily browse and purchase furniture.
               </p>
             </div>
             <footer>
@@ -98,7 +209,7 @@ export function Project() {
             <div className="body">
               <h3>MedicalBooks - Book Selling Site</h3>
               <p>
-                This website sells medical books online and is popular with medical students. Medical students use it to buy books and acquire knowledge. The site has all kinds of medical books in one place.
+                Built a specialized WooCommerce storefront tailored for medical professionals and students. Implemented advanced product filtering and secure payments to manage a large inventory of medical literature.
               </p>
             </div>
             <footer>
@@ -109,7 +220,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-{/* 
+        {/* 
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -147,7 +258,7 @@ export function Project() {
             <div className="body">
               <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
               <p>
-                This website allows people to easily book appointments with you online. It takes just a minute to schedule a meeting. This kind of site is helpful for booking appointments and not missing any potential clients. You should try this website to see how convenient and efficient it is.
+                Engineered a professional healthcare portal utilizing WordPress. Integrated a seamless, real-time appointment scheduling system to streamline patient bookings and improve clinic efficiency.
               </p>
             </div>
             <footer>
@@ -222,7 +333,7 @@ export function Project() {
             <div className="body">
               <h3>Mayatmaj - Film Production Site</h3>
               <p>
-                This agency website promotes post production, virtual production, and video marketing services. It shows previous client work and reviews to get more business. If you need help with production, this website can give you information and connect you with the right people.
+                Developed a dynamic portfolio website for a film production agency. Utilized custom post types and smooth animations to showcase high-quality video content and attract potential clients.
               </p>
             </div>
             <footer>
@@ -247,12 +358,7 @@ export function Project() {
             <div className="body">
               <h3>Moschip</h3>
               <p>
-                MosChip has shipped millions of products for connectivity applications as well as SoCs,
-                that are used in defense and aerospace applications.
-                MosChip provides custom silicon solutions using in-house IPs and third-party IPs.
-                Our expertise in silicon-proven platform solutions create a strong foundation for 
-                custom semiconductor solutions in the areas of data converters, SoCs for STB, smart metering, 
-                handheld devices, and various IoT Applications.
+                Built a corporate website for a leading semiconductor company. Structured complex B2B information clearly and optimized the site for global enterprise clients.
               </p>
             </div>
             <footer>
@@ -303,7 +409,7 @@ export function Project() {
             <div className="body">
               <h3>Global WareHousing</h3>
               <p>
-              We are a warehousing and logistics services firm based in the UK.We have in-depth expertise and experience in world-class storage and distribution services.
+                Created a responsive corporate portal for a UK-based logistics firm. Implemented a tailored content management system to effectively highlight global supply chain and warehousing services.
               </p>
             </div>
             <footer>
@@ -328,7 +434,7 @@ export function Project() {
             <div className="body">
               <h3>Mexico Board Dentist</h3>
               <p>
-              Explore Top Dental Clinics in Mexico. Uncover the Best Dentists, Affordable Packages, and Embrace Dental Tourism in Mexico
+                Designed and developed a medical tourism platform targeting international patients. Focused on mobile-first design and SEO to help patients easily find and book dental packages.
               </p>
             </div>
             <footer>
@@ -353,9 +459,7 @@ export function Project() {
             <div className="body">
               <h3>PathFinder</h3>
               <p>
-              Pathfinder extends a very warm welcome to the school-going students 
-              of Eastern India from Class VII to Class XII. Pathfinder, the leading 
-              institute in Eastern India guides students for competitive exams like JEE and allied competitive exams. 
+                Built an educational platform for a premier coaching institute. Structured a user-friendly interface to provide students with easy access to course materials and competitive exam resources.
               </p>
             </div>
             <footer>
@@ -365,33 +469,9 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        
-        <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://krimshospitals.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Krism Hospital</h3>
-              <p>
-              KRIMS Hospitals is consistently striving to provide the most accessible, 
-              reliable and affordable health care services to patients with true care, 
-              commitment and compassion. 
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation>
-        
+
+
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -405,8 +485,7 @@ export function Project() {
             <div className="body">
               <h3>Exim Chain</h3>
               <p>
-              EXIMCHAINS SPORTS GIVE ACTUAL NEWS
-              Its Sport News Website related to footbal local & international & Olampic.
+                Developed a dynamic sports news portal using WordPress. Implemented automated content categorization and optimized the site to handle high traffic during major tournaments.
               </p>
             </div>
             <footer>
@@ -416,7 +495,7 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        
+
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -430,7 +509,7 @@ export function Project() {
             <div className="body">
               <h3>Hack The Hub</h3>
               <p>
-              Hackathons that bring highly-skilled tech teams together, to innovate, create and collaborate - all while having fun.
+                Built an engaging event platform for tech hackathons. Integrated registration workflows and interactive schedules to foster collaboration among developers and innovators.
               </p>
             </div>
             <footer>
@@ -440,8 +519,8 @@ export function Project() {
             </footer>
           </div>
         </ScrollAnimation>
-        
-{/*         
+
+        {/*         
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>
@@ -482,7 +561,7 @@ export function Project() {
             <div className="body">
               <h3>Waterfront Market</h3>
               <p>
-                Experience the charm of traditional markets at Dubai's waterfront. Shop for fresh produce, seafood, spices, and local crafts in a picturesque setting.
+                Developed a feature-rich Drupal platform for a major Dubai destination. Integrated dynamic event listings and interactive maps to enhance the overall visitor experience.
               </p>
             </div>
             <footer>
@@ -509,7 +588,7 @@ export function Project() {
             <div className="body">
               <h3>WildWadi Water Park</h3>
               <p>
-                Dubai's premier water park featuring thrilling slides, wave pools, and family-friendly attractions. Perfect for a fun-filled day of water-based adventures.
+                Built an interactive theme park website leveraging Drupal. Focused on providing a seamless mobile experience and an easy-to-use online ticket purchasing system.
               </p>
             </div>
             <footer>
@@ -536,7 +615,7 @@ export function Project() {
             <div className="body">
               <h3>Ain Dubai</h3>
               <p>
-                Experience Dubai's tallest observation wheel offering breathtaking panoramic views of the city skyline, Palm Jumeirah, and the Arabian Gulf.
+                Developed a scalable enterprise website for a major tourist attraction. Utilized Drupal to handle high volumes of international traffic while providing breathtaking panoramic visuals.
               </p>
             </div>
             <footer>
@@ -563,7 +642,7 @@ export function Project() {
             <div className="body">
               <h3>ARN Dubai</h3>
               <p>
-                Premier destination for entertainment, dining, and cultural experiences in Dubai, offering world-class events and attractions for visitors and locals.
+                Created a robust digital presence for a leading entertainment network. Implemented modular content structures to support high-traffic news and entertainment delivery.
               </p>
             </div>
             <footer>
@@ -590,7 +669,7 @@ export function Project() {
             <div className="body">
               <h3>Coca-Cola Arena</h3>
               <p>
-                Dubai's premier entertainment venue hosting world-class concerts, sporting events, and performances by international and local artists.
+                Built a dynamic event and ticketing platform using Drupal. Integrated concert schedules and secure booking workflows for Dubai's premier entertainment venue.
               </p>
             </div>
             <footer>
@@ -617,7 +696,7 @@ export function Project() {
             <div className="body">
               <h3>Dubai Parks and Resorts</h3>
               <p>
-                Explore multiple theme parks and resorts offering diverse entertainment for families. Features thrilling rides, attractions, and world-class hospitality.
+                Developed a comprehensive multisite platform for a massive entertainment resort. Implemented scalable architecture to manage multiple theme parks and unified booking funnels.
               </p>
             </div>
             <footer>
@@ -644,7 +723,7 @@ export function Project() {
             <div className="body">
               <h3>Global Village</h3>
               <p>
-                Cultural destination showcasing pavilions from 70+ countries with traditional crafts, cuisine, entertainment, and shopping experiences.
+                Engineered an interactive cultural portal highlighting global pavilions. Focused on real-time event updates and an engaging mobile-first experience for visitors.
               </p>
             </div>
             <footer>
@@ -671,7 +750,7 @@ export function Project() {
             <div className="body">
               <h3>Roxy Cinemas</h3>
               <p>
-                Premium cinema experience with state-of-the-art technology and comfortable seating. Enjoy the latest movies and blockbuster releases.
+                Built a premium cinema ticketing platform using Drupal. Optimized the seat selection interface and streamlined the checkout process for moviegoers.
               </p>
             </div>
             <footer>
@@ -875,7 +954,7 @@ export function Project() {
           </div>
         </ScrollAnimation> */}
 
-{/*
+        {/*
         <ScrollAnimation animateIn="flipInX">
           <div className="project">
             <header>

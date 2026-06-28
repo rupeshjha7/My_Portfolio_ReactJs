@@ -7,9 +7,9 @@ export const Container = styled.header`
   align-items: center;
   padding: 1.8rem 10rem;
   
-  background-color: #21212150;
-  
-  backdrop-filter: blur(6px);
+  background-color: rgba(33, 33, 33, 0.7);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 
   position: fixed;
   top: 0;
@@ -29,12 +29,38 @@ export const Container = styled.header`
       text-transform: uppercase;
       transition: filter 0.25s;
 
+      position: relative;
+
       &.button{
         padding: 0.6rem 5rem;
+        border-radius: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        transition: all 0.3s ease;
+        &:hover {
+          background: rgba(35, 206, 107, 0.2);
+          box-shadow: 0 0 10px rgba(35, 206, 107, 0.3);
+        }
+      }
+
+      &:not(.button)::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        background-color: var(--green);
+        transition: all 0.3s ease;
+        transform: translateX(-50%);
+      }
+
+      &:not(.button):hover::after {
+        width: 100%;
+        box-shadow: 0 0 8px var(--green);
       }
 
       &:hover{
-        filter: brightness(0.6);
+        color: var(--green);
       }
     }
 
@@ -130,7 +156,8 @@ export const Container = styled.header`
     position: absolute;
     top: 5px;
     left: 4px;
-   transition: cubic-bezier(0.68, -0.55, 0.27, 01.55) 320ms;
+    transition: cubic-bezier(0.68, -0.55, 0.27, 1.55) 320ms;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   }
 
   input:checked + label {

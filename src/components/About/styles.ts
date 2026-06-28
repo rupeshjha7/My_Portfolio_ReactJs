@@ -2,14 +2,19 @@ import styled from "styled-components";
 
 export const Container = styled.section`
   margin-top: 12rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 
   .hard-skills{
-    margin-top: 1.6rem;
+    margin-top: 2.5rem;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 1.8rem;
   }
@@ -17,26 +22,36 @@ export const Container = styled.section`
     display: flex;
     flex-direction: column;
     align-items: center;
+    transition: all 0.3s ease;
 
     img{
       width: 3.4rem;
+      transition: all 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.1);
+      filter: drop-shadow(0 0 10px rgba(35, 206, 107, 0.5));
     }
 
     &.skill-badge{
       span{
-        background: linear-gradient(135deg, var(--green) 0%, #1db954 100%);
-        color: white;
-        padding: 0.6rem 1.2rem;
-        border-radius: 0.5rem;
-        font-size: 0.95rem;
-        font-weight: 600;
+        background: linear-gradient(135deg, rgba(35, 206, 107, 0.1) 0%, rgba(29, 185, 84, 0.2) 100%);
+        border: 1px solid var(--green);
+        color: #fff; /* Keep this white since background gradient is green */
+        padding: 0.6rem 1.6rem;
+        border-radius: 2rem;
+        font-size: 1.1rem;
+        font-weight: 500;
         white-space: nowrap;
-        box-shadow: 0 2px 8px rgba(35, 206, 107, 0.3);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
         transition: all 0.3s ease;
 
         &:hover{
-          transform: translateY(-2px);
-          box-shadow: 0 4px 12px rgba(35, 206, 107, 0.5);
+          transform: translateY(-3px);
+          background: linear-gradient(135deg, var(--green) 0%, #1db954 100%);
+          box-shadow: 0 5px 15px rgba(35, 206, 107, 0.4);
         }
       }
     }
@@ -59,64 +74,22 @@ export const Container = styled.section`
   p{
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    font-weight: 500;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--text-color);
   }
   
   
 
-  .about-image{
-    text-align: center;
-   img{
-     margin-top: 2rem;
-     width: 75%;
-     filter: grayscale(0);
-     transition: filter 0.5s;
-     &:hover{
-       filter: grayscale(0);
-     }
-   }
-  }
-.rounded{
-  height:400px;
-  width:400px;
-  border-radius:50%;
-}
-  @media only screen and (max-width: 480px) {
-    .about-image {
-      max-width: 100%;
-      margin-top: 4rem;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
-    }
-  }
+
 
   @media (max-width: 960px){
-    display: block;
+    display: flex;
     text-align: center;
     
     .hard-skills{
       justify-content: center;
     }
-    .about-image{
-      display: flex;
-      max-width: 100%;
-      img{
-        margin-top: 2rem;
-        width: 100%;
-        filter: grayscale(0);
-        transition: filter 0.5s;
-        &:hover{
-          filter: grayscale(0);
-        }
-    }
-    
-    
   }
 
 `

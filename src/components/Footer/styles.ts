@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const Container = styled.footer`
-  background-color: #2b2b2b;
+  background: linear-gradient(180deg, rgba(33, 33, 33, 0) 0%, rgba(33, 33, 33, 0.8) 100%);
   padding: 3rem 15rem;
   margin-top: 10rem;
   display: flex;
@@ -30,9 +30,27 @@ export const Container = styled.footer`
     justify-content: space-between;
     gap: 1rem;
 
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 4rem;
+      height: 4rem;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        transform: translateY(-5px);
+        background: rgba(35, 206, 107, 0.2);
+        box-shadow: 0 5px 15px rgba(35, 206, 107, 0.3);
+      }
+    }
+
     img,span{
       font-size: 3rem;
-      width: 3rem;
+      width: 2rem;
     }
   }
 
